@@ -1,0 +1,135 @@
+<?php
+function base_url(){
+    return 'https://bizdollars4u.com/';
+}
+?>
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+
+
+<link rel="stylesheet" href="https://bizdollars4u.com/assets/v2/css/pricing_table.css">
+<h2 style="text-align:center">Responsive Pricing Tables</h2>
+<p style="text-align:center">Resize the browser window to see the effect.</p>
+<div class="container rank_table">
+<div class="row">
+    <div class="col-sm-4">
+        <div class="price_columns">
+          <ul class="invest_price list-unstyled">
+            <li class="header">Basic</li>
+            <li class="grey">$ 9.99 / year</li>
+            <li><span class='price_left'>10GB Storag</span><span class='price_right'>10GB Storag</span></li>
+            <li>10 Emails</li>
+            <li>10 Domains</li>
+            <li>1GB Bandwidth</li>
+
+          </ul>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="price_columns">
+          <ul class="invest_price list-unstyled">
+            <li class="header" style="background-color:#4CAF50">Pro</li>
+            <li class="grey">$ 24.99 / year</li>
+            <li>25GB Storage</li>
+            <li>25 Emails</li>
+            <li>25 Domains</li>
+            <li>2GB Bandwidth</li>
+
+          </ul>
+        </div>
+    </div>
+    <div class="col-sm-4">
+        <div class="price_columns">
+          <ul class="invest_price list-unstyled">
+            <li class="header">Premium</li>
+            <li class="grey">$ 49.99 / year</li>
+            <li>50GB Storage</li>
+            <li>50 Emails</li>
+            <li>50 Domains</li>
+            <li>5GB Bandwidth</li>
+
+          </ul>
+        </div>
+    </div>
+</div>
+</div>
+
+
+<!-- fj added -->
+			
+			<link  rel="stylesheet" href="https://bizdollars4u.com/assets/fj_assests/fj_custm.css" />
+  
+
+  <link rel="stylesheet" href="https://bizdollars4u.com/assets/fj_assests/fj_style.css" />
+  
+  
+  
+
+  
+  
+  
+  
+  <div class=" row">
+					<div class=" col-md-offset-2 col-md-8">
+						<center>
+							<div class="panel-group" style="width:80%">
+								<div class="panel panel-default">
+									<div class="panel-heading">
+										<h3>Profit Calculator</h3>
+									</div>
+									<div class="panel-body">
+				<div id="bitcoinCalc">					    
+    <label>USD</label><input type="radio" name="Currency" id="btc" value="0" checked="">
+    <label>PKR</label><input type="radio" name="Currency" id="pkr" value="1">
+    <div class="vert-separator"></div>
+
+    <div class="column">
+      <!--<div class="container">-->
+        <div class="row">
+          <label for="selectPackage">Select Package:</label>
+          <select name="in_package" id="in_package" class="form-control"><option value="0">Select Package</option><option value="0.065">Starter</option></select>
+        </div>
+        <div class="row">
+          <label for="exchangeRate">Amount:</label>
+          <input type="text" id="exchangeRate" class="alert">
+        </div>
+        <div class="row">
+          <div id="exchangeRateSlider" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" aria-disabled="false"><div class="ui-slider-range ui-widget-header ui-slider-range-min" style="width: 0.13218%;"></div><a class="ui-slider-handle ui-state-default ui-corner-all" href="#" style="left: 0.13218%;"></a></div>
+        </div>
+        <div class="row">
+          <label for="fee">Period:</label>
+          <input type="text" id="fee" class="alert">
+          <div class="row">
+            <div id="feeSlider" class="ui-slider ui-slider-horizontal ui-widget ui-widget-content ui-corner-all" aria-disabled="false"><div class="ui-slider-range ui-widget-header ui-slider-range-min" style="width: 0.6%;"></div><a class="ui-slider-handle ui-state-default ui-corner-all" href="#" style="left: 0.6%;"></a></div>
+          </div>
+        
+        </div>
+        <div class="vert-separator"></div>
+       </div>
+       
+      
+   
+				
+				
+	<div class="row">
+          <label for="fixvalue">Profit:</label>
+         <input id="fixvalue" type="text" value="" readonly="">
+        </div>			
+		 </div>							    
+								</div>		</div>
+                                 </div>
+                          </center></div>  
+                          </div>
+                          
+<script  src="https://bizdollars4u.com/assets/fj_assests/fj_custome.js"></script>
+  	<script  src="https://bizdollars4u.com/assets/fj_assests/fj_custm1.js"></script>
+	 <script src="js/fJ_script.js"></script>			         
+			
+			<!-- fj added end -->
+

@@ -1,0 +1,51 @@
+<!------------------Start of Calender----------------------------->
+								
+	
+<div class=" row">
+			<div class=" col-md-offset-2 col-md-8">
+				<center>
+					<div class="panel-group" style="width:80%">
+						<div class="panel panel-default">
+							<div class="panel-heading">
+								<h3>Event Calenter</h3>
+							</div>
+							<div class="panel-body">
+							    <div class="response"></div>
+								<div id='home_calendar'></div> 
+							</div>
+						</div>
+					</div>
+				</center>
+			</div>
+</div>	
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.0.0-alpha.6/css/bootstrap.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
+  <link rel='stylesheet' href='https://fullcalendar.io/js/fullcalendar-3.1.0/fullcalendar.min.css' />
+<script src='https://fullcalendar.io/js/fullcalendar-3.1.0/lib/moment.min.js'></script>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fullcalendar/3.4.0/fullcalendar.min.js"></script>
+
+	
+<script>
+   
+ $(function() {
+
+  // page is now ready, initialize the calendar...
+
+  $('#home_calendar').fullCalendar({
+   editable:true,
+    header:{
+     left:'prev,next today',
+     center:'title',
+     right:'month,agendaWeek,agendaDay'
+    },
+  })
+
+});
+        
+</script>
+<!------------------End of Calender---------------------->

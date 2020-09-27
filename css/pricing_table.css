@@ -1,0 +1,73 @@
+body
+{
+    background-color:#232323!important;
+    color:#fff;
+}
+
+
+
+.price_columns {
+  float: left;
+  width:100%;
+  padding: 8px;
+    color:#000;
+}
+
+.rank_table .col-sm-4{
+    padding: 0px;
+}
+
+.price_columns .invest_price {
+  list-style-type: none;
+ 
+  margin: 0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.price_columns .invest_price li .price_left{
+    float: left;
+}
+
+.price_columns .invest_price li .price_right {
+    float: right;
+    border-left: 2px solid #eee;
+    line-height: 65px;
+    margin-top: -20px;
+    padding-left: 20px;
+}
+.price_columns .invest_price li{
+  clear:both;
+}
+
+.price_columns .invest_price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.invest_price .header {
+  background-color: #128c7e;
+  color: white;
+  font-size: 25px;
+    text-align: center;
+}
+
+.invest_price li {
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+/*  text-align: center;*/
+    background: #fff;
+}
+
+.invest_price .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+
+
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
